@@ -14,6 +14,6 @@
 ## Relocation Problem
 
 1. Alice relocates `func1` below `func2` in **alice-move**
-2  Bob renames `func1` to `sum` in **bob-rename**
+2. Bob renames `func1` to `sum` in **bob-rename**
 
 - Could not detect that the definition was relocated when its name was changed (observer extra-linguistic markers after changes pulled in **alice-move**)
