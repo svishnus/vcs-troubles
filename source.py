@@ -1,4 +1,4 @@
-def func_1(a: str, b: str) -> str:
+def sum(a: str, b: str) -> str:
     return a + b
 
 
