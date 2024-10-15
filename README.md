@@ -1,6 +1,6 @@
 # Issues with traditional Version Control Systems (VCS)
 
-- Each branch in the repository represents a user change
+- Each branch in this repository represents a user change
 
 - When Alice tries pulling in Bob's changes for each of the cases, we observe merge conflicts in `alice-rename` and `alice-move`
 
@@ -16,4 +16,4 @@
 1. Alice relocates `func1` below `func2` in **alice-move**
 2. Bob renames `func1` to `sum` in **bob-rename**
 
-- Could not detect that the definition was relocated when its name was changed (observer extra-linguistic markers after changes pulled in **alice-move**)
+- Could not detect that the definition was relocated when its name was changed (observe extra-linguistic markers after changes pulled in **alice-move**)
