@@ -6,7 +6,9 @@
 
 - When Alice tries pulling in Bob's changes for each of the cases, we observe merge conflicts in `alice-rename` and `alice-move`.
 
-- **checkout** `alice-rename` and `alice-move` to see the extralinguistic markers that git places. Note that we cannot run or test code in the presence of these markers.
+- **checkout** `alice-rename` and `alice-move` to see the extralinguistic markers that git inserts.
+
+- Note that we cannot parse, typecheck, or run code in the presence of these markers.
 
 ## Granularity Problem
 
